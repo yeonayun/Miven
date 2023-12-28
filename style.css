@@ -1,0 +1,15 @@
+body{
+    background-image: url("배경.png");
+}
+
+h{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color:white
+}
