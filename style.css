@@ -8,8 +8,99 @@ h{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 a{
     color:white
+}
+
+.container1,
+.container2 {
+    position: relative;
+    width: 300px; 
+    height: 300px; 
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7,
+.image8,
+.image9,
+.image10 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+
+.image2,
+.image4,
+.image6,
+.image8,
+.image10 {
+    z-index: 1;
+}
+
+.image1,
+.image3,
+.image5,
+.image7,
+.image9 {
+    width: 250px;
+}
+
+.image2,
+.image4,
+.image6,
+.image8,
+.image10 {
+    width: 250px;
+    top: 130px;
+}
+
+.image3,
+.image4 {
+    left: 350px;
+}
+
+.image7,
+.image8 {
+    left: 350px;
+}
+
+.image5,
+.image6 {
+    left: 350px;
+    top: 130px;
+}
+
+.image6 {
+    top: 230px;
+}
+
+.image7,
+.image8 {
+    left: 650px;
+    top: 130px;
+}
+
+.image8{
+    top: 230px;
+}
+
+.image9, .image10 {
+    left: 1200px;
+}
+
+.image9{
+    top:130px;
+}
+
+.image10{
+    top:230px;
 }
