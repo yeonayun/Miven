@@ -21,22 +21,22 @@ a{
     height: 300px; 
 }
 
-.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10 {
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12 {
     position: absolute;
     top: 30px;
     left: 30px;
 }
 
 
-.image2, .image4, .image6, .image8, .image10 {
+.image2, .image4, .image6, .image8, .image10, .image12 {
     z-index: 1;
 }
 
-.image1, .image3, .image5, .image7, .image9 {
+.image1, .image3, .image5, .image7, .image9, .image11 {
     width: 250px;
 }
 
-.image2, .image4, .image6, .image8, .image10 {
+.image2, .image4, .image6, .image8, .image10, .image12 {
     width: 250px;
     top: 130px;
 }
@@ -45,12 +45,15 @@ a{
     left: 350px;
 }
 
+.image11, .image12 {
+    left: 680px;
+}
+
 .image7, .image8 {
     left: 350px;
 }
 
 .image5, .image6 {
-    left: 350px;
     top: 130px;
 }
 
@@ -59,7 +62,7 @@ a{
 }
 
 .image7, .image8 {
-    left: 650px;
+    left: 350px;
     top: 130px;
 }
 
