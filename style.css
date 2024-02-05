@@ -15,66 +15,81 @@ a{
     color:white
 }
 
-.container1, .container2 {
+.container1, .container2, .container3, .container4 {
     position: relative;
     width: 300px; 
     height: 300px; 
 }
 
-.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10 {
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13, .image14, .image15, .image16, .image17, .image18, .image19, .image20, .image21, .image22 {
     position: absolute;
     top: 30px;
     left: 30px;
 }
 
 
-.image2, .image4, .image6, .image8, .image10 {
+.image2, .image4, .image6, .image8, .image10, .image12, .image14, .image16, .image18, .image20, .image22 {
     z-index: 1;
 }
 
-.image1, .image3, .image5, .image7, .image9 {
+.image1, .image3, .image5, .image7, .image9, .image11, .image13, .image15, .image17, .image19, .image21 {
     width: 250px;
 }
 
-.image2, .image4, .image6, .image8, .image10 {
+.image2, .image4, .image6, .image8, .image10, .image12, .image14, .image16, .image18, .image20, .image22  {
     width: 250px;
     top: 130px;
 }
 
-.image3, .image4 {
-    left: 350px;
-}
+/* 20기 사진 위치 조정 */
 
-.image7, .image8 {
+.image3, .image4, .image5, .image6{
     left: 350px;
-}
-
-.image5, .image6 {
-    left: 350px;
-    top: 130px;
-}
-
-.image6 {
-    top: 230px;
 }
 
 .image7, .image8 {
     left: 650px;
-    top: 130px;
-}
-
-.image8{
-    top: 230px;
 }
 
 .image9, .image10 {
     left: 1220px;
 }
 
-.image9{
-    top:130px;
+.image5, .image6, .image7, .image8, .image9, .image10{
+    top: 100px;
 }
 
-.image10{
-    top:230px;
+.image6, .image8, .image10{
+    top: 200px;
 }
+
+/* 21기 사진 위치 조정 */
+
+.image13, .image14, .image19, .image20{
+    left: 350px;
+}
+
+.image15, .image16{
+    left: 810px;
+}
+
+.image21, .image22 {
+    left: 1220px;
+}
+
+.image11, .image12, .image13, .image14, .image15, .image16{
+    top: 180px;
+}
+
+.image17, .image18, .image19, .image20, .image21, .image22{
+    top: 250px;
+}
+
+.image12, .image14, .image16{
+    top:280px;
+}
+
+.image18, .image20, .image22{
+    top:350px;
+}
+
