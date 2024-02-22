@@ -30,15 +30,22 @@
 
 h{
     color:white;
+    font-style: Zen Kaku Gothic New;
+    font-weight: 53;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    font-size: 18px;
 }
 
-a{
-    color:white
+h5 {
+    color:white;
+    font-style: Noto Sans;
+    font-weight: 53;
+    font-size: 13px;
+    text-align: left;
 }
 
 .container1, .container2, .container3, .container4 {
@@ -119,3 +126,238 @@ a{
     top:350px;
 }
 
+.name {
+    position: relative;
+}
+
+.haewon {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    position: absolute;
+    font-size: 15px;
+    font-style: Noto Sans;
+    font-weight: bold;
+    color: black;
+}
+
+.n{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 100px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+    color: black;
+
+}
+
+.gayun{
+    text-align: left;
+    margin-left: 370px;
+    margin-top: 40px;
+    position: absolute;
+    font-size: 15px;
+    font-style: Noto Sans;
+    font-weight: bold;
+    color: black;
+}
+
+.e{
+    text-align: left;
+    margin-left: 370px;
+    margin-top: 100px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+    color: black;
+}
+
+.jisoo{
+    text-align: left;
+    margin-left: 370px;
+    margin-top: 110px;
+    position: absolute;
+    font-size: 15px;
+    font-style: Noto Sans;
+    font-weight: bold;
+    color: black;
+}
+
+.w{
+    text-align: left;
+    margin-left: 370px;
+    margin-top: 170px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+    color: black;
+}
+
+.sun{
+    text-align: left;
+    margin-left: 670px;
+    margin-top: 110px;
+    position: absolute;
+    font-size: 15px;
+    font-style: Noto Sans;
+    font-weight: bold;
+    color: black;
+}
+
+.s{
+    text-align: left;
+    margin-left: 670px;
+    margin-top: 170px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+    color: black;
+}
+
+.won{
+    text-align: left;
+    margin-left: 1240px;
+    margin-top: 110px;
+    position: absolute;
+    font-size: 15px;
+    font-style: Noto Sans;
+    font-weight: bold;
+    color: black;
+}
+
+.c{
+    text-align: left;
+    margin-left: 1240px;
+    margin-top: 170px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+    color: black;
+}
+
+.hyun{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 190px;
+    position: absolute;
+    font-size: 15px;
+    font-style: Noto Sans;
+    font-weight: bold;
+    color: black;
+}
+
+.g{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 250px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+    color: black;
+}
+
+.yena{
+    text-align: left;
+    margin-left: 370px;
+    margin-top: 190px;
+    position: absolute;
+    font-size: 15px;
+    font-style: Noto Sans;
+    font-weight: bold;
+    color: black;
+}
+
+.y{
+    text-align: left;
+    margin-left: 370px;
+    margin-top: 250px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+    color: black;
+}
+
+.sang{
+    text-align: left;
+    margin-left: 830px;
+    margin-top: 190px;
+    position: absolute;
+    font-size: 15px;
+    font-style: Noto Sans;
+    font-weight: bold;
+    color: black;
+}
+
+.m{
+    text-align: left;
+    margin-left: 830px;
+    margin-top: 250px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+    color: black;
+}
+
+.yun{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 260px;
+    position: absolute;
+    font-size: 15px;
+    font-style: Noto Sans;
+    font-weight: bold;
+    color: black;
+}
+
+.a{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 320px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+    color: black;
+}
+
+.eun{
+    text-align: left;
+    margin-left: 370px;
+    margin-top: 260px;
+    position: absolute;
+    font-size: 15px;
+    font-style: Noto Sans;
+    font-weight: bold;
+    color: black;
+}
+
+.o{
+    text-align: left;
+    margin-left: 370px;
+    margin-top: 320px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+    color: black;
+}
+
+.jo{
+    text-align: left;
+    margin-left: 1240px;
+    margin-top: 260px;
+    position: absolute;
+    font-size: 15px;
+    font-style: Noto Sans;
+    font-weight: bold;
+    color: black;
+}
+
+.h{
+    text-align: left;
+    margin-left: 1240px;
+    margin-top: 320px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+    color: black;
+}
