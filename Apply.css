@@ -32,10 +32,7 @@ h3 {
     font-style: Zen Kaku Gothic New;
     font-size: 20px;
     margin-top: 160%;
-}
-
-.opaque-text {
-    color: rgba(255, 255, 255, 1); 
+    font-weight: 53;
 }
 
 .centered-text {
@@ -44,10 +41,22 @@ h3 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.centered-text1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20%;
+}
+
+p{
+    margin: 3px;
+    font-size: 13px;
+    opacity: 0.5;
+}
 
 .pig {
     font-style: Noto Sans;
     font-size: 13px;
     text-align: center;
-    margin-top: 130%;
 }
