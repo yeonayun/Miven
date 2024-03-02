@@ -1,88 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="Apply2.css"> 
     <meta charset="UTF-8">
-    <title>Apply2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Apply2.css">
 </head>
 <body>
-     <div id="video-background">
-         <video autoplay muted loop>
-            <source src="바다 배경.mp4">
+    
+    <video src="바다 배경.mp4" autoplay muted loop></video>
+
+    <div id="form-container">
+        <div id="motive-box">
+            <p class="box-title">지원동기</p>
+            <div class="box-input">
+                <textarea id="motive-textarea"></textarea>
+            </div>
         </div>
-        <div id="content">
 
-    <div class = "image-name">
-        <img src = "name.png" alt = "name image">
+        <div id="introduce-box">
+            <p class="box-title">자기소개</p>
+            <div class="box-input">
+                <textarea id="introduce-textarea"></textarea>
+            </div>
+        </div>
+
+        <div id="proscons-box">
+            <p class="box-title">강점/약점</p>
+            <div class="box-input">
+                <textarea id="proscons-textarea"></textarea>
+            </div>
+        </div>
+
+        <div id="button-box">
+            <input type="button" value="임시저장" id="save-button" class="button">
+            <input type="button" value="제출하기" id="submit-button" class="button">
+        </div>
     </div>
 
-    <div class = "image-email">
-        <img src = "email.png" alt = "email image">
-    </div>
-
-    <div class = "image-school">
-        <img src = "school.png" alt = "school image">
-    </div>
-
-    <div class = "image-number">
-        <img src = "number.png" alt = "number image">
-    </div>
-
-    <div class = "image-support">
-        <img src = "지원동기.png" alt = "support image">
-    </div>
-
-    <div class = "image-self">
-        <img src = "self.png" alt = "self image">
-    </div>
-
-    <div class = "image-strong">
-        <img src = "strong.png" alt = "strong image">
-    </div>
-
-    <div class = "image-home">
-        <img src = "home.png" alt = "home image">
-    </div>
-
-    <div class = "image-finish">
-        <img src = "제출.png" alt = "finish image">
-    </div>
-
-    <div class = "name">
-        <p>이름 :</p>
-    </div>
-
-    <div class = "school">
-        <p>학번 :</p>
-    </div>
-
-    <div class = "number">
-        <p>연락처 :</p>
-    </div>
-
-    <div class = "e-mail">
-        <p>e-mail :</p>
-    </div>
-
-    <div class = "support">
-        <p>지원동기 :</p>
-    </div>
-
-    <div class = "self">
-        <p>자기소개 :</p>
-    </div>
-
-    <div class = "strong">
-        <p>강점/약점 :</p>
-    </div>
-
-    <div class = "finish">
-        <p>제출하기<a href></a></p>
-    </div>
-
-    <div class = "bo">
-        <p>임시저장<a href></a></p>
-    </div>
+    <script src="Apply2.js"></script>
 
 </body>
 </html>
