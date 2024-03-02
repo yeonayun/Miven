@@ -16,10 +16,10 @@
     width: auto;
     height: auto;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: -100px; /* 초기 위치 - 이미지가 화면 아래에 숨겨져 있음 */
+    transition: bottom 0.5s ease; /* 부드러운 이동을 위한 트랜지션 */
 }
+
 #content {
     position: relative;
     z-index: 1;
@@ -54,11 +54,23 @@ h5 {
     height: 300px; 
 }
 
+body {
+    height: 2000px; /* 스크롤이 가능한 충분한 높이 */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* 수평 스크롤 막기 */
+}
+
 .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13, .image14, .image15, .image16, .image17, .image18, .image19, .image20, .image21, .image22 {
     position: absolute;
     top: 30px;
     left: 30px;
+
+    /* bottom: -100px; /* 초기 위치 - 이미지가 화면 아래에 숨겨져 있음 */
+    /* transition: bottom 0.5s ease; 부드러운 이동을 위한 트랜지션 */ 
+
 }
+
 
 
 .image2, .image4, .image6, .image8, .image10, .image12, .image14, .image16, .image18, .image20, .image22 {
@@ -360,4 +372,99 @@ h5 {
     font-size: 13px;
     font-style: Noto Sans;
     color: black;
+}
+
+/* sns 버튼 삽입*/
+
+.s1{
+    text-align: left;
+    margin-left: 240px;
+    margin-top: 100px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+    /* color: white;
+    text-decoration: none; */
+
+}
+
+.s2{
+    text-align: left;
+    margin-left: 560px;
+    margin-top: 100px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+}
+
+.s3{
+    text-align: left;
+    margin-left: 560px;
+    margin-top: 170px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+}
+
+.s4{
+    text-align: left;
+    margin-left: 860px;
+    margin-top: 170px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+}
+
+.s5{
+    text-align: left;
+    margin-left: 1430px;
+    margin-top: 170px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+}
+
+.s6{
+    text-align: left;
+    margin-left: 240px;
+    margin-top: 250px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+}
+
+.s7{
+    text-align: left;
+    margin-left: 560px;
+    margin-top: 250px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+}
+
+.s8{
+    text-align: left;
+    margin-left: 1020px;
+    margin-top: 250px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+}
+
+.s9{
+    text-align: left;
+    margin-left: 240px;
+    margin-top: 320px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
+}
+
+.s10{
+    text-align: left;
+    margin-left: 1430px;
+    margin-top: 320px;
+    position: absolute;
+    font-size: 13px;
+    font-style: Noto Sans;
 }
