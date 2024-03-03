@@ -19,19 +19,9 @@ document.addEventListener("DOMContentLoaded", function () {
             submitButton.style.opacity = 1;
             submitButton.removeAttribute("disabled");
         } else {
-            submitButton.style.opacity = 0.2;
+            submitButton.style.opacity = 0.3;
             submitButton.setAttribute("disabled", "disabled");
         }
-
-        // height 업데이트
-        const textareaHeight = Math.max(
-            motiveTextarea.scrollHeight,
-            introduceTextarea.scrollHeight,
-            prosconsTextarea.scrollHeight
-        );
-        document.querySelectorAll(".box-input textarea").forEach((textarea) => {
-            textarea.style.height = textareaHeight + "px";
-        });
     }
 
     motiveTextarea.addEventListener("input", updateSubmitButtonOpacity);

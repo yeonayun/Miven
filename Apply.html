@@ -1,28 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="Apply.css"> 
     <meta charset="UTF-8">
-    <title>Apply</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Apply.css">
 </head>
-
 <body>
-    <div id="video-background">
-        <video autoplay muted loop>
-           <source src="바다 배경.mp4">
-       </div>
-       <div id="content">
+    
+    <video src="바다 배경.mp4" autoplay muted loop></video>
 
-<div class = "centered-text">
-    <h3>DO YOU WANT TO JOIN OUR CLUB?</h3>
-</div>
+    <div id="section1">
+        <p id="content1-title">DO YOU WANT TO JOIN OUR CLUB?</p>
+        <p id="content2-title">Miven과 함께 할 22기 Gardeners를 찾습니다.<br>22기가 될 기회를 놓치지 마세요.</p>
+    </div>
 
-<div class = "centered-text1">
-    <p>Miven과 함께 할 22기 Gardeners를 찾습니다.</p>
-    <p>22기가 될 기회를 놓치지 마세요.</p>
-</div>
+    <div id="section2">
+        <div id="form-container">
+            <div id="studentid-box">
+                <p class="box-title">학번</p>
+                <div class="box-input">
+                    <textarea id="studentid-textarea"></textarea>
+                </div>
+            </div>
+    
+            <div id="name-box">
+                <p class="box-title">이름</p>
+                <div class="box-input">
+                    <textarea id="name-textarea"></textarea>
+                </div>
+            </div>
+    
+            <div id="email-box">
+                <div>
+                    <p class="box-title">이메일</p>
+                    <p id="sub-title">*학교 이메일을 적어주세요</p>
+                </div>
+                <div class="box-input">
+                    <textarea id="email-textarea"></textarea>
+                </div>
+            </div>
+    
+            <input type="button" value="지원서 쓰러가기" id="write-button">
+        </div>
+    </div>
 
 
-<p class = "pig"></p>
+    <script src="Apply.js"></script>
+
 </body>
 </html>
