@@ -1,0 +1,180 @@
+#video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: -100px;
+    transition: bottom 0.5s ease;
+}
+
+#content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.member {
+    color: white;
+    font-family: "Zen Kaku Gothic New";
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+h5 {
+    color: white;
+    font-family: "Noto Sans";
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+}
+
+#home {
+    position: fixed;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.container1 img,
+.container2 img,
+.container3 img,
+.container4 img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 250px;
+}
+
+.container1 img:nth-child(even),
+.container2 img:nth-child(even),
+.container3 img:nth-child(even),
+.container4 img:nth-child(even) {
+    z-index: 1;
+}
+
+.container1 img:nth-child(odd),
+.container2 img:nth-child(odd),
+.container3 img:nth-child(odd),
+.container4 img:nth-child(odd) {
+    top: 130px;
+}
+
+/* 사진 위치 조정 */
+.container1 img:nth-child(n + 3) {
+    left: 350px;
+}
+
+.container1 img:nth-child(n + 5) {
+    left: 650px;
+}
+
+.container1 img:nth-child(n + 7) {
+    left: 1220px;
+}
+
+.container1 img:nth
+
+/* 사진 위치 조정 */
+.container1 img:nth-child(n + 3) {
+    left: 350px;
+}
+
+.container1 img:nth-child(n + 5) {
+    left: 650px;
+}
+
+.container1 img:nth-child(n + 7) {
+    left: 1220px;
+}
+
+.container2 img:nth-child(n + 3) {
+    left: 350px;
+}
+
+.container2 img:nth-child(n + 5) {
+    left: 810px;
+}
+
+.container2 img:nth-child(n + 7) {
+    left: 1220px;
+}
+
+.container3 img:nth-child(n + 3) {
+    left: 350px;
+}
+
+.container3 img:nth-child(n + 5) {
+    left: 810px;
+}
+
+.container3 img:nth-child(n + 7) {
+    left: 1220px;
+}
+
+.container4 img:nth-child(n + 3) {
+    left: 350px;
+}
+
+.container4 img:nth-child(n + 5) {
+    left: 810px;
+}
+
+.container4 img:nth-child(n + 7) {
+    left: 1220px;
+}
+
+/* 이름 및 부서 위치 조정 */
+.name {
+    position: relative;
+}
+
+.name div {
+    position: absolute;
+    font-size: 15px;
+    font-style: Noto Sans;
+    color: black;
+}
+
+.haewon, .gayun, .jisoo, .sun, .won {
+    font-weight: bold;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.n, .e, .w, .s, .c {
+    margin-top: 100px;
+}
+
+.hyunn, .yena, .sang, .yun, .eun, .jo {
+    margin-top: 190px;
+}
+
+.g, .y, .m, .a, .o, .h {
+    margin-top: 250px;
+}

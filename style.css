@@ -28,7 +28,8 @@
     padding: 20px;
 }
 
-h{
+
+/* .member h {
     color:white;
     font-style: Zen Kaku Gothic New;
     font-weight: 53;
@@ -37,16 +38,65 @@ h{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-left: 700px;
     font-size: 18px;
 }
 
-h5 {
+#home {
+    position: fixed
+} */
+
+.t20 {
+    color: rgba(57, 152, 255, 1);
+    font-style: Noto Sans;
+    font-weight: 53;
+    font-size: 17px;
+    margin-left: 28px;
+    margin-bottom: 100px;
+    top: 0; /* 스크롤할 때 상단에 고정됨 */
+    position: fixed;
+}
+
+.t21 {
     color:white;
     font-style: Noto Sans;
     font-weight: 53;
-    font-size: 13px;
-    text-align: left;
+    font-size: 17px;
+    margin-left: 80px;
+    margin-top: 28px;
+    top: 0; /* 스크롤할 때 상단에 고정됨 */
+    position: fixed;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+  }
+
+  #header {
+    /* 헤더를 최상위로 표시 */
+    z-index: 1000;
+    padding: 10px;
+    position: fixed;
+    top: 0; /* 스크롤할 때 상단에 고정됨 */
+    width: 100%;
+    transition: top 0.3s; /* 스크롤에 반응하는 애니메이션 설정 */
+  }
+
+#total{
+    margin-top:50px;
+}
+
+.mem{
+    color:white;
+    font-style: Noto Sans;
+    font-weight: 53;
+    font-size: 20px;
+    text-align: center;
+}
+
+
 
 .container1, .container2, .container3, .container4 {
     position: relative;
@@ -401,6 +451,10 @@ h5 {
     font-size: 13px;
     font-style: Noto Sans;
 }
+.s1 a, .s2 a, .s3 a, .s4 a, .s5 a, .s6 a, .s7 a, .s9 a, .s10 a {
+    text-decoration: none;
+    color: black;
+}
 
 .s5{
     text-align: left;
@@ -429,14 +483,6 @@ h5 {
     font-style: Noto Sans;
 }
 
-.s8{
-    text-align: left;
-    margin-left: 1020px;
-    margin-top: 250px;
-    position: absolute;
-    font-size: 13px;
-    font-style: Noto Sans;
-}
 
 .s9{
     text-align: left;
