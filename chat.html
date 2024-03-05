@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 스크롤 예제</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* 스크롤 막기 */
+        }
+
+        #imageContainer {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; /* 이미지의 상대적 위치를 조절하기 위해 */
+        }
+
+        .image {
+            position: absolute;
+            bottom: -100vh; /* 아래에서 위로 올라오도록 초기 위치 설정 */
+            transition: bottom 0.5s ease-in-out; /* 부드러운 이동 효과 적용 */
+        }
+
+        .image.active {
+            bottom: 0; /* 화면에 나타나도록 위치 변경 */
+        }
+    </style>
+</head>
+<body>
+    <div id="imageContainer">
+        <img class="image" src="연아윤1.png" alt="연아윤1">
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const image = document.querySelector(".image");
+            let targetPosition = 100; // 원하는 위치
+
+            function handleWheel(event) {
+                if (event.deltaY > 0 && window.scrollY >= targetPosition) {
+                    // 마우스 휠을 내리고 이미지가 원하는 위치에 도달하면 이미지가 화면에 나타납니다.
+                    image.classList.add("active");
+                }
+            }
+
+            // 마우스 휠 이벤트 감지
+            document.addEventListener("wheel", handleWheel);
+        });
+    </script>
+</body>
+</html>
