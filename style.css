@@ -30,7 +30,7 @@
 }
 
 .t20 {
-    color: rgba(57, 152, 255, 1);
+    color: white;
     font-style: Noto Sans;
     font-weight: 53;
     font-size: 17px;
@@ -54,7 +54,7 @@
 body {
     margin: 0;
     padding: 0;
-    height: 2000px;
+    height: 1500px;
   }
 
 #header {
